@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #f8f6f6;
+    margin: 0;
+    padding: 0;
+    background-color: #010105;
+}
+
+header {
+    background-color: #0816d1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #474040;
+    transform: scale(1.1);
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    transition: transform 0.3s;
+}
+
+.main-image:hover {
+    transform: scale(1.05);
+}
+.program-item {
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+    transition: transform 0.3s;
+}
+.program-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.program-item {
+    width: (60px);
+    margin: 42px;
+    border: 1px solid #070000;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.program-item img {
+    width:100% ;
+    height: auto;
+}
+
+.program-item p {
+    padding: 10px;
+    text-align: center;
+}
+.program-item:hover {
+    transform: scale(1.05);
+}
+
+
+section {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f51533;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8f6167;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+}
+
+.project-item p {
+    padding: 10px;
+    text-align: center;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+#register-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #0816d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.program-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #0816d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.program-button:hover {
+    background-color:6#5e97d1;
+}
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media-links li {
+    display: inline-block;
+}
+
+.social-media-links img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+.social-media-links img:hover {
+    transform: scale(1.1);
+}
+
+#social-media p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#social-media img {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0816d1;
+    color: white;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff0f0f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Hide the button by default */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+#back-to-top:hover {
+    background-color: #003366;
+}
